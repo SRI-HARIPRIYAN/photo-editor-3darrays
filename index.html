@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Image manipulation by 3d arrays</h1>
+		</header>
+		<main>
+			<canvas id="editor" height="200px" width="200px"></canvas>
+			<div>
+				<input type="file" accept="image/*" id="fileInput" />
+			</div>
+			<div>
+				<button id="download" class="bg-green-500 px-1 py-1 border-">
+					Download
+				</button>
+				<button id="flipRight">Flip right</button>
+				<button id="flipLeft">Flip left</button>
+				<button id="flipVertical">Flip vertical</button>
+				<button id="flipHorizontal">Flip horizontal</button>
+			</div>
+		</main>
+		<footer></footer>
+		<script src="script.js"></script>
+	</body>
+</html>
