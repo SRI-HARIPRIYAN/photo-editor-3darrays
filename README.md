@@ -1,6 +1,3 @@
-This project implements a photo editor using a novel approach: representing images as 3D arrays.
-This allows for efficient manipulation of pixel data, enabling various image editing functionalities.
-
 KEY FEATURES:-
 
 1. Image Loading and Display: Supports loading images in various formats and displaying them on the interface.
